@@ -1,0 +1,274 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: roboto;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Inicio del formato de celular - MOBILE VIEW START ------------------------------------------------------*/
+@media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
+
+.header-background{
+  width: 100%;
+  height: 50vw;
+}
+
+.scooter-girl{
+  height: 10vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/* Fin del formato de celular - MOBILE VIEW END -------------------------------------------------------------*/
+
+/* Inicio del formato de escritorio - DESKTOP VIEW START ------------------------------------------------------*/
+@media screen and (min-width: 415px) {
+
+  .header-background{
+    width: 100%;
+    height: 30vw;
+  }
+
+  .scooter-girl{
+    height: 85vh;
+    /* margin-left: 19.5vw; */
+    /* margin-top: 5vh; */
+  }
+
+  .electromobility-logo{
+    height: 20vh;
+  }
+
+  .header-paragraph{
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 4.5vw;
+    padding: 6vh 0vw;
+    font-size: 25px;
+  }
+
+  .header-paragraph-italic{
+    font-weight: bold;
+    color: #FECE0C;
+    font-style: italic;
+  }
+
+  .header-button{
+    background-color: transparent;
+    border: solid 2px #FDCE0C;
+    color: #FDCE0C;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 8px 20px;
+    margin-left: 4.5vw;
+    margin-bottom: 5vh;
+  }
+
+  .header-button:hover{
+    border: solid 2px #d4ac0b;
+    color: #d4ac0b;
+  }
+
+  /* .header-content{
+  } */
+
+  .content{
+    display:flex;
+    margin-top: -60vh;
+    margin-left: 19.5vw;
+  }
+
+  .category-buttonA{
+    background-color: #E8B30D;
+    border: none;
+    height: 22vh;
+    width: 10vw;
+    margin: -0.3vw;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .category-buttonA:hover{
+    color: #682666;
+    height: 23vh;
+  }
+
+  .category-buttonB{
+    background-color: #FECE0C;
+    border: none;
+    height: 22vh;
+    width: 10vw;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .category-buttonB:hover{
+    color: #682666;
+    height: 23vh;
+  }
+
+  .category-buttons{
+    margin-left: 4.5vw;
+  }
+
+  .category-buttons img{
+    height: 10vh;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/* Fin del formato de escritorio - DESKTOP VIEW END ------------------------------------------------------*/
