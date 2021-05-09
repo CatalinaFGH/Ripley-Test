@@ -136,19 +136,22 @@ table {
   margin: 0px;
 }
 
+@font-face
+{
+font-family: FUTURASTD;
+src: url(FuturaSTD/FuturaStdBold.otf);
+}
+
 /* Inicio del formato de celular - MOBILE VIEW START ------------------------------------------------------*/
 @media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
 
-.header-background{
-  width: 100%;
-  height: 50vw;
+/*Sección del header*/
+.header-desktop{
+  display: none;
 }
-
-.scooter-girl{
-  height: 10vh;
-
+.header-mobile{
+  display: flex;
 }
-
 
 
 
@@ -168,15 +171,17 @@ table {
 /* Inicio del formato de escritorio - DESKTOP VIEW START ------------------------------------------------------*/
 @media screen and (min-width: 415px) {
 
+/*Sección del header*/
+.header-mobile{
+  display:none;
+}
   .header-background{
     width: 100%;
     height: 30vw;
   }
 
   .scooter-girl{
-    height: 85vh;
-    /* margin-left: 19.5vw; */
-    /* margin-top: 5vh; */
+    height: 81vh;
   }
 
   .electromobility-logo{
@@ -184,15 +189,14 @@ table {
   }
 
   .header-paragraph{
-    font-weight: bold;
     color: #ffffff;
     margin-left: 4.5vw;
     padding: 6vh 0vw;
     font-size: 25px;
+    font-family: FUTURASTD;
   }
 
   .header-paragraph-italic{
-    font-weight: bold;
     color: #FECE0C;
     font-style: italic;
   }
@@ -205,16 +209,15 @@ table {
     font-size: 17px;
     padding: 8px 20px;
     margin-left: 4.5vw;
-    margin-bottom: 5vh;
+    margin-bottom: 4.5vh;
+    font-family: FUTURASTD;
+    cursor: pointer;
   }
 
   .header-button:hover{
     border: solid 2px #d4ac0b;
     color: #d4ac0b;
   }
-
-  /* .header-content{
-  } */
 
   .content{
     display:flex;
@@ -230,6 +233,8 @@ table {
     margin: -0.3vw;
     color: #ffffff;
     font-weight: bold;
+    font-family: FUTURASTD;
+    cursor: pointer;
   }
 
   .category-buttonA:hover{
@@ -244,6 +249,8 @@ table {
     width: 10vw;
     color: #ffffff;
     font-weight: bold;
+    font-family: FUTURASTD;
+    cursor: pointer;
   }
 
   .category-buttonB:hover{
