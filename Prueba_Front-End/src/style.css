@@ -306,7 +306,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 /* inicio del carrusel MOBILE*/
 .container {
   width: 100vw;
-  height: 60vh;
+  height: 53vh;
   position: relative;
   overflow: hidden;
 }
@@ -398,6 +398,29 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 }
 /* Fin del carrusel MOBILE */
 
+/* Sección de lo mejor DESKTOP*/
+.best-section-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.best-section-paragraph1{
+  color: #FECE0C;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: FUTURASTD;
+  text-align: center;
+  /* margin-top: 8vh; */
+}
+
+.best-section-paragraph2{
+  color: #682666;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: FUTURASTD;
+  text-align: center;
+}
 
 
 }
@@ -650,6 +673,27 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 }
 /* Fin del carrusel DESKTOP */
 
+/* Sección de lo mejor DESKTOP*/
+.best-section-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.best-section-paragraph1{
+  color: #FECE0C;
+  font-size: 55px;
+  font-family: FUTURASTD;
+  text-align: center;
+  margin-top: 8vh;
+}
+
+.best-section-paragraph2{
+  color: #000000;
+  font-size: 23px;
+  font-family: FUTURASTD;
+  text-align: center;
+}
 
 
 
