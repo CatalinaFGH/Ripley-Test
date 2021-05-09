@@ -284,7 +284,9 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   line-height: 15px;
   margin-top: 2vh;
 }
+/* Fin sección de llamado */
 
+/* Main sección y primer carrusel*/
 
 
 
@@ -429,9 +431,107 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   line-height: 15px;
   margin-top: 2vh;
 }
+/* Fin sección de llamado */
 
+/* Main sección y primer carrusel*/
 
+.main-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.scooter-section{
+  height: 60vh;
+}
 
+.container {
+  width: 40vw;
+  height: 60vh;
+  position: relative;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  height: 100%;
+  width: 33vw;
+}
+.slide {
+  min-width: 59vw;
+  position: relative;
+}
+.slide img {
+  width: 100%;
+  height: 70vh;
+}
+.slide-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#next-btn,
+#prev-btn {
+  cursor: pointer;
+  background: transparent;
+  font-size: 45px;
+  border: none;
+  padding: 60px;
+  color: #FECE0C;
+}
+#next-btn:focus,
+#prev-btn:focus {
+  outline: none;
+}
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide button {
+  color: #682666;;
+  font-weight: bold;
+  border: solid 3px #682666;;
+  padding: 8px;
+  background-color: transparent;
+  font-size: 13px;
+  font-family: FUTURASTD;
+}
+
+.product-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 33vw;
+}
+
+.product-name{
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: FUTURASTD;
+  margin-top: -15vh;
+  padding: 1vh;
+}
+
+.product-price{
+  color: #682666;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: FUTURASTD;
+  padding-bottom: 1vh;
+}
 
 
 
