@@ -303,25 +303,28 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   height: 12vh;
   margin-top: 3vh;
 }
-/* inicio del carrusel */
+/* inicio del carrusel MOBILE*/
 .container {
-  width: 70vw;
+  width: 100vw;
   height: 60vh;
   position: relative;
   overflow: hidden;
 }
 .slides {
   display: flex;
-  height: 60vh;
-  width: 33vw;
+  height: 45vh;
 }
 .slide {
-  min-width: 60vw;
+  /* min-width: 60vw; */
+  min-width: 100vw;
   position: relative;
 }
-.slide img {
-  width: 100%;
-  height: 50vh;
+.product-image {
+  display: none;
+}
+.product-image-mobile {
+  display: flex;
+  height: 45vh;
 }
 .slide-controls {
   position: absolute;
@@ -361,7 +364,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   border: solid 3px #682666;;
   padding: 8px;
   background-color: transparent;
-  font-size: 10px;
+  font-size: 12px;
   font-family: FUTURASTD;
 }
 
@@ -370,18 +373,20 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #ffffff;
-  width: 60vw;
+  background-color: transparent;
+  /* width: 60vw; */
+  width: 70vw;
 }
 
 .product-name{
   color: #000;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 12px;
   font-family: FUTURASTD;
   margin-top: -15vh;
   padding: 1vh;
-  width: 35vw;
+  /* width: 35vw; */
+  text-align: center;
 }
 
 .product-price{
@@ -391,7 +396,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   font-family: FUTURASTD;
   padding-bottom: 1vh;
 }
-
+/* Fin del carrusel MOBILE */
 
 
 
@@ -401,7 +406,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 /* Inicio del formato de escritorio - DESKTOP VIEW START ------------------------------------------------------*/
 @media screen and (min-width: 415px) {
 
-/*Sección del header*/
+/*Sección del header DESKTOP*/
 .header-background-mobile{
   display: none;
 }
@@ -510,9 +515,9 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   .buttons-container-mobile{
     display: none;
   }
-/* Fin del header */
+/* Fin del header DESKTOP*/
 
-/* Sección de llamado */
+/* Sección de llamado DESKTOP*/
 .call-image-mobile{
   display: none;
 }
@@ -534,9 +539,9 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   line-height: 15px;
   margin-top: 2vh;
 }
-/* Fin sección de llamado */
+/* Fin sección de llamado DESKTOP*/
 
-/* Main sección y primer carrusel*/
+/* Main sección y primer carrusel DESKTOP*/
 
 .main-section{
   display: flex;
@@ -552,7 +557,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 .scooter-section{
   height: 60vh;
 }
-
+/* Inicio del carrusel DESKTOP */
 .container {
   width: 40vw;
   height: 60vh;
@@ -562,15 +567,18 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 .slides {
   display: flex;
   height: 100%;
-  width: 33vw;
+  /* width: 33vw; */
 }
 .slide {
-  min-width: 59vw;
+  min-width: 60vw;
   position: relative;
 }
-.slide img {
-  width: 100%;
-  height: 70vh;
+.product-image-mobile {
+  display: none;
+}
+.product-image {
+  display: flex;
+  height: 55vh;
 }
 .slide-controls {
   position: absolute;
@@ -621,7 +629,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   align-items: center;
   flex-direction: column;
   background-color: #ffffff;
-  width: 33vw;
+  /* width: 33vw; */
 }
 
 .product-name{
@@ -640,7 +648,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   font-family: FUTURASTD;
   padding-bottom: 1vh;
 }
-
+/* Fin del carrusel DESKTOP */
 
 
 
