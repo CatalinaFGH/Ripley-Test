@@ -145,7 +145,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 /* Inicio del formato de celular - MOBILE VIEW START ------------------------------------------------------*/
 @media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
 
-/*Sección del header*/
+/*Sección del header MOBILE*/
 .header-background{
   display: none;
 }
@@ -258,9 +258,9 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   display: flex;
   flex-direction: column;
 }
-/* Fin del header */
+/* Fin del header MOBILE */
 
-/* Sección de llamado */
+/* Sección de llamado MOBILE*/
 .call-image{
   display: none;
 }
@@ -284,10 +284,113 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   line-height: 15px;
   margin-top: 2vh;
 }
-/* Fin sección de llamado */
+/* Fin sección de llamado MOBILE*/
 
-/* Main sección y primer carrusel*/
+/* Main sección y primer carrusel MOBILE*/
 
+.main-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scooter-section{
+  display: none;
+}
+
+.scooter-section-mobile{
+  display: flex;
+  height: 12vh;
+  margin-top: 3vh;
+}
+/* inicio del carrusel */
+.container {
+  width: 70vw;
+  height: 60vh;
+  position: relative;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  height: 60vh;
+  width: 33vw;
+}
+.slide {
+  min-width: 60vw;
+  position: relative;
+}
+.slide img {
+  width: 100%;
+  height: 50vh;
+}
+.slide-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#next-btn,
+#prev-btn {
+  cursor: pointer;
+  background: transparent;
+  font-size: 45px;
+  border: none;
+  color: #FECE0C;
+}
+#next-btn:focus,
+#prev-btn:focus {
+  outline: none;
+}
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide button {
+  color: #682666;;
+  font-weight: bold;
+  border: solid 3px #682666;;
+  padding: 8px;
+  background-color: transparent;
+  font-size: 10px;
+  font-family: FUTURASTD;
+}
+
+.product-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 60vw;
+}
+
+.product-name{
+  color: #000;
+  font-weight: bold;
+  font-size: 11px;
+  font-family: FUTURASTD;
+  margin-top: -15vh;
+  padding: 1vh;
+  width: 35vw;
+}
+
+.product-price{
+  color: #682666;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: FUTURASTD;
+  padding-bottom: 1vh;
+}
 
 
 
@@ -441,6 +544,11 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   justify-content: center;
   align-items: center;
 }
+
+.scooter-section-mobile{
+  display: none;
+}
+
 .scooter-section{
   height: 60vh;
 }
