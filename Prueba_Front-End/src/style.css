@@ -146,17 +146,104 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 @media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
 
 /*Sección del header*/
-.header-desktop{
+.header-background{
   display: none;
 }
-.header-mobile{
-  display: flex;
+.header-background-mobile{
+  height: 44vh;
+  width: 100%;
 }
 
+.scooter-girl-mobile{
+  display: flex;
+  height: 30vh;
+}
+.scooter-girl{
+  display: none;
+}
 
+.content{
+  display: flex;
+  justify-content: center;
+  margin-top: -42vh;
+}
 
+.electromobility-logo{
+  height: 7.5vh;
+  margin-top: 5vh;
+}
 
+.header-paragraph{
+  display: none;
+}
 
+.header-paragraph-italic{
+  display: none;
+}
+
+.header-paragraph-mobile{
+  color: #ffffff;
+  margin-top: 3.5vh;
+  margin-left: 4.5vw;
+  font-size: 18px;
+  font-family: FUTURASTD;
+}
+
+.header-paragraph-italic-mobile{
+  color: #FECE0C;
+  font-style: italic;
+  margin-left: 7.5vw;
+  font-size: 18px;
+  font-family: FUTURASTD;
+}
+
+.header-button-container{
+  display: flex;
+  margin-top: 9vh;
+}
+.header-button{
+  background-color: transparent;
+  border: solid 2px #FDCE0C;
+  color: #FDCE0C;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 10px;
+  margin-bottom: 4.5vh;
+  margin-left: -25.5vw;
+  font-family: FUTURASTD;
+}
+
+.category-buttons{
+  margin-left: -37.5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.category-buttons img{
+  height: 4vh;
+}
+
+.category-buttonA{
+  background-color: #E8B30D;
+  border: none;
+  height: 10vh;
+  width: 100%;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: FUTURASTD;
+  font-size: 13px;
+}
+
+.category-buttonB{
+  background-color: #FECE0C;
+  border: none;
+  height: 10vh;
+  width: 100%;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: FUTURASTD;
+  font-size: 13px;
+}
 
 
 
@@ -172,14 +259,16 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 @media screen and (min-width: 415px) {
 
 /*Sección del header*/
-.header-mobile{
-  display:none;
+.header-background-mobile{
+  display: none;
 }
   .header-background{
     width: 100%;
     height: 30vw;
   }
-
+  .scooter-girl-mobile{
+    display: none;
+  }
   .scooter-girl{
     height: 81vh;
   }
@@ -199,6 +288,14 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   .header-paragraph-italic{
     color: #FECE0C;
     font-style: italic;
+  }
+
+  .header-paragraph-mobile{
+    display: none;
+  }
+  
+  .header-paragraph-italic-mobile{
+    display: none;
   }
 
   .header-button{
