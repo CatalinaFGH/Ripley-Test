@@ -157,6 +157,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 .scooter-girl-mobile{
   display: flex;
   height: 30vh;
+  margin-left: 6vw;
 }
 .scooter-girl{
   display: none;
@@ -164,7 +165,6 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 
 .content{
   display: flex;
-  justify-content: center;
   margin-top: -42vh;
 }
 
@@ -198,28 +198,37 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 }
 
 .header-button-container{
+  display: none;
+}
+.header-button-container-mobile{
   display: flex;
-  margin-top: 9vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .header-button{
+  display: none;
+}
+.header-button-mobile{
   background-color: transparent;
   border: solid 2px #FDCE0C;
   color: #FDCE0C;
   font-weight: bold;
   font-size: 15px;
-  padding: 8px 10px;
+  padding: 12px 15px;
   margin-bottom: 4.5vh;
-  margin-left: -25.5vw;
   font-family: FUTURASTD;
 }
 
 .category-buttons{
-  margin-left: -37.5vw;
+    display: none;
+}
+.category-buttons-mobile{
     display: flex;
     flex-direction: row;
 }
 
-.category-buttons img{
+.category-buttons-mobile img{
   height: 4vh;
 }
 
@@ -245,7 +254,36 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   font-size: 13px;
 }
 
+.buttons-container-mobile{
+  display: flex;
+  flex-direction: column;
+}
+/* Fin del header */
 
+/* Sección de llamado */
+.call-image{
+  display: none;
+}
+.call-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.call-image-mobile{
+  height: 12vh;
+  margin-top: 3vh;
+}
+.call-paragraph{
+  display: none;
+}
+.call-paragraph-mobile{
+  font-family: FUTURASTD;
+  text-align: center;
+  font-size: 14px;
+  line-height: 15px;
+  margin-top: 2vh;
+}
 
 
 
@@ -327,7 +365,6 @@ src: url(FuturaSTD/FuturaStdBold.otf);
     border: none;
     height: 22vh;
     width: 10vw;
-    margin: -0.3vw;
     color: #ffffff;
     font-weight: bold;
     font-family: FUTURASTD;
@@ -357,12 +394,41 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 
   .category-buttons{
     margin-left: 4.5vw;
+    display: flex;
+    flex-direction: row;
   }
 
   .category-buttons img{
     height: 10vh;
   }
 
+  .buttons-container-mobile{
+    display: none;
+  }
+/* Fin del header */
+
+/* Sección de llamado */
+.call-image-mobile{
+  display: none;
+}
+.call-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 13.5vw;
+}
+.call-image{
+  height: 19vh;
+}
+.call-paragraph-mobile{
+  display: none;
+}
+.call-paragraph{
+  font-family: FUTURASTD;
+  text-align: right;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 2vh;
+}
 
 
 
