@@ -398,7 +398,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 }
 /* Fin del carrusel MOBILE */
 
-/* Sección de lo mejor DESKTOP*/
+/* Sección de lo mejor MOBILE*/
 .best-section-container{
   display: flex;
   justify-content: center;
@@ -422,6 +422,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   text-align: center;
 }
 
+/* Inicio del segundo carrusel MOBILE */
 
 }
 /* Fin del formato de celular - MOBILE VIEW END -------------------------------------------------------------*/
@@ -694,9 +695,84 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   font-family: FUTURASTD;
   text-align: center;
 }
+/* Inicio del segundo carrusel DESKTOP */
 
+.best-container {
+  margin: 0 auto;
+  width: 60%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.best-slides {
+  display: flex;
+  height: 100%;
+}
+.best-slide {
+  min-width: 98%;
+  position: relative;
+}
+.best-scooter-img {
+  width: 9vw;
+  height: 18vh;
+}
+.best-slide-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#bestNextBtn,
+#bestPrevBtn {
+  cursor: pointer;
+  background: transparent;
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+  color: #682666;
+}
+#bestNextBtn:focus,
+#bestPrevBtn:focus {
+  outline: none;
+}
+.best-slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
 
+.best-slide p {
+  color: #682666;
+  font-weight: bold;
+}
 
+.best-slide button {
+  color: #000000;
+  font-weight: bold;
+  border: solid 2px #000000;
+  padding: 8px;
+  background-color: transparent;
+}
+
+.best-product-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 20px;
+  background-color: #FECE0C;
+  padding: 10px;
+}
 
 
 
