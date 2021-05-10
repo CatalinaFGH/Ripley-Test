@@ -424,6 +424,12 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 
 /* Inicio del segundo carrusel MOBILE */
 
+
+
+
+
+
+
 }
 /* Fin del formato de celular - MOBILE VIEW END -------------------------------------------------------------*/
 
@@ -754,6 +760,9 @@ src: url(FuturaSTD/FuturaStdBold.otf);
 .best-slide p {
   color: #682666;
   font-weight: bold;
+  font-family: FUTURASTD;
+  font-size: 15px;
+  padding: 2vh;
 }
 
 .best-slide button {
@@ -762,6 +771,7 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   border: solid 2px #000000;
   padding: 8px;
   background-color: transparent;
+  font-family: FUTURASTD;
 }
 
 .best-product-container{
@@ -773,8 +783,5 @@ src: url(FuturaSTD/FuturaStdBold.otf);
   background-color: #FECE0C;
   padding: 10px;
 }
-
-
-
 }
 /* Fin del formato de escritorio - DESKTOP VIEW END ------------------------------------------------------*/
